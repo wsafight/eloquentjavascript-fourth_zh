@@ -181,10 +181,9 @@ function factorial(n) {
 
 有时，为了显示程序产生的输出，预期输出写在其后面，前面带有两个斜线和一个箭头。
 
-
 ```js
-console.log(factorial( 8 ));
- // → 40320
+console.log(factorial(8));
+// → 40320
 ```
 
 祝你好运！

@@ -13,25 +13,29 @@ export default defineConfig({
         github: "https://github.com/wsafight/eloquentjavascript-forth_zh",
       },
       sidebar: [
-		{
-			label: "介绍",
-			slug: "00_intro/readme"
-		},
         {
-          label: "Guides",
+          label: "介绍",
+          slug: "00_intro/readme",
+        },
+        {
+          label: "第一部分：语言",
           items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", slug: "guides/example" },
+            { 
+				label: "1.值、类型和运算符", 
+				slug: "01_values/readme" 
+			},
           ],
         },
         {
-          label: "Reference",
+          label: "第二部分：浏览器",
+          autogenerate: { directory: "reference" },
+        },
+        {
+          label: "第三部分：Node",
           autogenerate: { directory: "reference" },
         },
       ],
-	  customCss: [
-        './src/styles/custom.css',
-      ],
+      customCss: ["./src/styles/custom.css"],
     }),
   ],
   compressHTML: true,
