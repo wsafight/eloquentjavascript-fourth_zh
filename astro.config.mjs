@@ -89,10 +89,18 @@ export default defineConfig({
               label: "16.项目：平台游戏",
               slug: "16_game/readme",
             },
-			{
-				label: "17.在 Canvas 上绘图",
-				slug: "17_canvas/readme",
-			  },
+            {
+              label: "17.在 Canvas 上绘图",
+              slug: "17_canvas/readme",
+            },
+            {
+              label: "18.HTTP 和表单",
+              slug: "18_http/readme",
+            },
+            {
+              label: "19.项目：像素艺术编辑器",
+              slug: "19_paint/readme",
+            },
           ],
         },
         {
@@ -101,6 +109,10 @@ export default defineConfig({
             {
               label: "20.Node.js",
               slug: "20_node/readme",
+            },
+            {
+              label: "21.项目：技能共享网站",
+              slug: "21_skillsharing/readme",
             },
           ],
         },
