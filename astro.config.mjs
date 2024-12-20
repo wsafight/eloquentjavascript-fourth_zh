@@ -20,15 +20,20 @@ export default defineConfig({
         {
           label: "第一部分：语言",
           items: [
-            { 
-				label: "1.值、类型和运算符", 
-				slug: "01_values/readme" 
-			},
+            {
+              label: "1.值、类型和运算符",
+              slug: "01_values/readme",
+            },
           ],
         },
         {
           label: "第二部分：浏览器",
-          autogenerate: { directory: "reference" },
+          items: [
+            {
+              label: "13.JavaScript 和浏览器",
+              slug: "13_browser/readme",
+            },
+          ],
         },
         {
           label: "第三部分：Node",
