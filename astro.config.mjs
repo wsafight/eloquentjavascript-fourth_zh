@@ -13,6 +13,12 @@ export default defineConfig({
       social: {
         github: "https://github.com/wsafight/eloquentjavascript-forth_zh",
       },
+      locales: {
+        root: {
+          label: '简体中文',
+          lang: 'zh-CN',
+        },
+      },
       sidebar: [
         {
           label: "介绍",
